@@ -1,5 +1,5 @@
 
-# Oracle TO_DATE Function
+# TO_DATE Function
 
 ## Purpose
 Converts a string to a **DATE** value using a specified date format.
@@ -107,13 +107,6 @@ SELECT TO_DATE('2025-18-07', 'YYYY-MM-DD') FROM dual; -- Error!
 | TZD       | Time zone abbreviation   |
 | TZH       | Time zone hour           |
 | TZM       | Time zone minute         |
-
----
-
-## Practical Tips
-
-- **Always specify format:** Use explicit format to avoid NLS issues.
-- **For timestamp:** Use `TO_TIMESTAMP` instead of `TO_DATE` for fractional seconds.
 
 ---
 
