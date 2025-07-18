@@ -20,7 +20,7 @@ SELECT TO_CHAR(hire_date, 'Month YYYY') AS month_year
 FROM employees;
 ```
 
-> Output: `July     2023`\
+> Output: `July     2023`
 
 **b. Day of Week**
 
@@ -29,7 +29,7 @@ SELECT TO_CHAR(hire_date, 'Day') AS day_name
 FROM employees;
 ```
 
-> Output: `Tuesday   `\
+> Output: `Tuesday   `
 
 
 ---
